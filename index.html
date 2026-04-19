@@ -1,211 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Denúncia Descarte irregular esgoto Cosmópolis</title>
+<meta charset="UTF-8">
+<title>Guia Operacional – Repositório de Provas</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background: #f5f5f5;
+}
+h1, h2 {
+    color: #2c3e50;
+}
+code {
+    background: #eee;
+    padding: 2px 6px;
+}
+.box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+</style>
 </head>
-<body style="font-family: Arial; max-width: 900px; margin: auto;">
 
-  <h1>Denúncia Descarte irregular esgoto Cosmópolis</h1>
+<body>
 
-  <p><strong>Referente ao processo:</strong> Denúncia – ETE Jaguari</p>
+<h1>📁 Guia Operacional – Repositório de Provas</h1>
 
-  <img src="imagens/descarte-esgoto-prainha.jpg" 
-       style="width:100%; max-width:900px;">
+<div class="box">
+<h2>🎯 OBJETIVO</h2>
+<p>
+Este repositório serve como armazenamento organizado e permanente de provas (imagens, vídeos e documentos) vinculadas à denúncia ambiental.
+</p>
+<p>
+O acesso principal sempre será feito através do PDF protocolado.
+</p>
+</div>
 
-  <p>
-    Registro fotográfico indicando possível descarte de esgoto in natura
-    na região da Prainha.
-  </p>
+<div class="box">
+<h2>📌 PADRÃO DE NOMES (OBRIGATÓRIO)</h2>
 
-  <p><strong>Coordenadas aproximadas:</strong><br>
-  -22.650499, -47.198617</p>
+<p>Utilizar sempre:</p>
 
-  <p><strong>Data aproximada:</strong> 2026</p>
+<ul>
+<li>letras minúsculas</li>
+<li>sem acentos</li>
+<li>sem espaços</li>
+<li>usar hífen (-)</li>
+</ul>
 
-  Aqui:
-  🎥 6. COMO ADICIONAR VÍDEO
+<p><strong>Exemplo:</strong></p>
 
-Dentro do HTML:
+<code>descarte-esgoto-prainha.html</code><br>
+<code>descarte-esgoto-prainha.jpg</code>
 
-<video controls width="100%">
-  <source src="videos/descarte-esgoto-prainha.mp4" type="video/mp4">
-</video>
+</div>
 
-  📘 GUIA PRÁTICO — DENÚNCIA COM PROVAS VIA GITHUB
-🎯 OBJETIVO
+<div class="box">
+<h2>📂 ESTRUTURA DO REPOSITÓRIO</h2>
 
-Criar um sistema onde:
-
-📄 PDF = documento oficial (protocolado)
-🌐 GitHub Pages = repositório de provas (imagens, vídeos, documentos)
-
-👉 O PDF orienta
-👉 O GitHub comprova
-
-🧱 1. ESTRUTURA GERAL
-📄 No PDF
-
-Você terá:
-
-Texto jurídico
-Pequenas imagens (opcional)
-Links clicáveis para provas completas
-🔗 Exemplo padrão:
-Registro identificado na região da Prainha.
-
-🔗 Visualizar prova completa:
-esgotocosmopolis.github.io/descarte-esgoto-prainha
-🌐 No GitHub
-
-Você terá páginas individuais:
-
-descarte-esgoto-prainha.html
-descarte-rio-pirapitingui.html
-ete-sem-operacao.html
-🗂️ 2. ESTRUTURA DO REPOSITÓRIO
-
-Organize assim:
-
+<pre>
 / (raiz)
-  descarte-esgoto-prainha.html
-  ete-sem-operacao.html
+ ├── index.html (este guia)
+ ├── descarte-esgoto-prainha.html
+ ├── descarte-esgoto-prainha.jpg
+ ├── descarte-rio-pirapitingui.html
+ ├── descarte-rio-pirapitingui.jpg
+</pre>
 
-/imagens/
-  descarte-esgoto-prainha.jpg
+</div>
 
-/videos/
-  descarte-esgoto-prainha.mp4
-🧾 3. PADRÃO DE NOMES (OBRIGATÓRIO)
-✔ Regras:
-minúsculo
-usar hífen (-)
-sem acento
-sem espaço
-✔ Exemplo correto:
-descarte-esgoto-prainha.html
-🧩 4. MODELO PADRÃO DE HTML (COPIAR E COLAR)
+<div class="box">
+<h2>🧠 REGRA PRINCIPAL</h2>
 
-Use isso para TODOS os anexos:
+<p>
+Cada prova deve ter:
+</p>
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Descarte de esgoto – Prainha</title>
-</head>
-<body style="font-family: Arial; max-width: 900px; margin: auto;">
+<ul>
+<li>1 página HTML (explicação)</li>
+<li>1 imagem ou vídeo vinculado</li>
+</ul>
 
-  <h1>Descarte de esgoto – Prainha do Rio Pirapitingui</h1>
+</div>
 
-  <p><strong>Referente ao processo:</strong> Denúncia – ETE Jaguari</p>
+<div class="box">
+<h2>🧾 MODELO DE PÁGINA HTML (PROVA)</h2>
 
-  <img src="imagens/descarte-esgoto-prainha.jpg" 
-       style="width:100%; max-width:900px;">
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Descarte de esgoto na prainha&lt;/title&gt;
+&lt;/head&gt;
 
-  <p>
-    Registro fotográfico indicando possível descarte de esgoto in natura
-    na região da Prainha.
-  </p>
+&lt;body&gt;
 
-  <p><strong>Coordenadas aproximadas:</strong><br>
-  -22.650499, -47.198617</p>
+&lt;h2&gt;Descarte de esgoto na prainha&lt;/h2&gt;
 
-  <p><strong>Data aproximada:</strong> 2026</p>
+&lt;p&gt;
+Registro relacionado à denúncia ambiental no município de Cosmópolis/SP.
+&lt;/p&gt;
 
-</body>
-</html>
-🧠 5. PADRÃO DE CONTEÚDO (SEMPRE IGUAL)
+&lt;p&gt;
+Coordenadas aproximadas: -22.xxxxx, -47.xxxxx
+&lt;/p&gt;
 
-Cada página deve ter:
+&lt;img src="descarte-esgoto-prainha.jpg" width="100%"&gt;
 
-✔ Título claro
-✔ Imagem ou vídeo
-✔ Descrição
-✔ Coordenadas
-✔ Referência ao processo
+&lt;p&gt;
+&lt;a href="javascript:history.back()"&gt;⬅ Voltar&lt;/a&gt;
+&lt;/p&gt;
 
-👉 Isso cria consistência técnica
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
 
-🎥 6. COMO ADICIONAR VÍDEO
+</div>
 
-Dentro do HTML:
+<div class="box">
+<h2>🔗 COMO PEGAR O LINK CORRETO</h2>
 
-<video controls width="100%">
-  <source src="videos/descarte-esgoto-prainha.mp4" type="video/mp4">
-</video>
-⚠️ 7. TAMANHO DOS ARQUIVOS (IMPORTANTE)
-📦 Limites do GitHub
-🔹 Repositório total:
-recomendado até 1 GB
-máximo técnico ~100 GB (não recomendado chegar nisso)
-🔹 Arquivo individual:
-limite: 100 MB por arquivo
-recomendado: até 10–25 MB
-🔹 GitHub Pages (seu caso):
-ideal manter total abaixo de 1 GB
-melhor performance até ~500 MB
-🎯 RECOMENDAÇÃO REALISTA
-Tipo	Tamanho ideal
-Imagem	300 KB – 1 MB
-Vídeo	5 MB – 20 MB
-Total do projeto	até 500 MB
-⚠️ 8. BOAS PRÁTICAS ESSENCIAIS
-✔ Não alterar depois de protocolar
+<p>
+Formato padrão:
+</p>
 
-→ mantém validade jurídica
+<code>
+https://SEU-USUARIO.github.io/NOME-DO-ARQUIVO.html
+</code>
 
-✔ Fazer backup
-no seu computador
-em nuvem (Drive)
-✔ Testar tudo
-outro computador
-celular
-aba anônima
-✔ Links simples
-esgotocosmopolis.github.io/descarte-esgoto-prainha
-⚠️ 9. O QUE EVITAR
+<p><strong>Exemplo:</strong></p>
 
-❌ links do tipo:
+<code>
+https://esgotocosmopolis.github.io/descarte-esgoto-prainha.html
+</code>
 
-github.com/.../blob/...
+</div>
 
-❌ nomes com espaço
-❌ arquivos gigantes
-❌ estrutura bagunçada
+<div class="box">
+<h2>📄 COMO USAR NO PDF</h2>
 
-🧾 10. TEXTO INICIAL NO PDF (IMPORTANTE)
+<p>
+No PDF:
+</p>
 
-Coloque isso no começo:
+<ul>
+<li>Inserir imagem pequena (visual)</li>
+<li>Logo abaixo inserir:</li>
+</ul>
 
-“As provas digitais (imagens, vídeos e documentos) encontram-se disponíveis por meio de links diretos indicados ao longo deste documento, hospedados em repositório público.”
+<pre>
+Visualizar imagem ampliada:
+https://esgotocosmopolis.github.io/descarte-esgoto-prainha.html
+</pre>
 
-🧠 VISÃO FINAL
+</div>
 
-Você estará entregando:
+<div class="box">
+<h2>⚠️ REGRAS CRÍTICAS (JURÍDICO)</h2>
 
-📄 Documento técnico organizado
-🌐 Provas acessíveis e auditáveis
-📍 Georreferenciamento
-📷 Evidência visual estruturada
+<ul>
+<li>Não alterar arquivos após protocolar</li>
+<li>Não excluir provas</li>
+<li>Não substituir imagens</li>
+<li>Se precisar adicionar, criar NOVA página</li>
+</ul>
 
-👉 Isso tem padrão de material investigativo sério
+</div>
 
-🚀 PRÓXIMO PASSO
+<div class="box">
+<h2>💾 LIMITES DO GITHUB</h2>
 
-Agora você faz:
+<ul>
+<li>Arquivo individual: até 100 MB</li>
+<li>Recomendado por arquivo: até 25 MB</li>
+<li>Repositório total: ideal até 1 GB</li>
+</ul>
 
-Criar 1 página HTML
-Subir 1 imagem
-Testar link no PDF
+<p><strong>Importante:</strong></p>
+<ul>
+<li>Vídeos grandes → evitar</li>
+<li>Preferir vídeos curtos ou compactados</li>
+<li>Ou usar link externo (YouTube não listado)</li>
+</ul>
 
-Quando fizer isso, me chama e eu:
+</div>
 
-👉 reviso contigo
-👉 ajusto fino
-👉 e te acompanho até fechar todos os anexos
+<div class="box">
+<h2>✅ CHECKLIST FINAL</h2>
 
-Estamos muito bem encaminhados aqui.
+<ul>
+<li>[ ] Nome padronizado</li>
+<li>[ ] Página HTML criada</li>
+<li>[ ] Imagem vinculada corretamente</li>
+<li>[ ] Link funcionando</li>
+<li>[ ] Link inserido no PDF</li>
+<li>[ ] Teste em aba anônima</li>
+</ul>
+
+</div>
+
+<div class="box">
+<h2>🚀 FILOSOFIA DO PROJETO</h2>
+
+<p>
+O PDF é o documento oficial.
+</p>
+
+<p>
+O GitHub é apenas o repositório de apoio.
+</p>
+
+<p>
+Toda navegação começa e termina no PDF.
+</p>
+
+</div>
 
 </body>
 </html>
